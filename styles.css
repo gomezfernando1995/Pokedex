@@ -29,7 +29,7 @@ background: linear-gradient(to right, #eeeeee, #DBDBDB, #F2F2F2, #ffffff); /* W3
 
 .poke-card::before {
   content: "";
-  background: radial-gradient(rgb(254, 232, 38) 33%, transparent 33%);
+  background: radial-gradient(rgb(37, 37, 37) 33%, transparent 33%);
   background-size: 3px 3px;
   border-radius: 4px;
   height: 100%;
@@ -64,12 +64,22 @@ background: linear-gradient(to right, #eeeeee, #DBDBDB, #F2F2F2, #ffffff); /* W3
 
 body{
     background: #7e7e70;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #7d8150, #CAC531);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #abae8a, #CAC531); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #c6b865, #CAC531);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ada445, #CAC531); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: "Roboto Mono", monospace;
 }
 
 .poke-img{
     width: 200px;
     border-radius: 50%;
+}
+
+
+
+.poke-logo{
+
+  display: block;
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
 }
